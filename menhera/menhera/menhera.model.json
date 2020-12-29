@@ -1,0 +1,85 @@
+{
+	"version": "1.0.0",
+	"model":"menhera.moc",
+	"textures": [
+		"menhera.2048/texture_00.png"
+	],
+	"hit_areas": [
+		{"name": "head","id": "D_REF.Head"},
+		{"name": "body","id": "D_REF.Body"},
+		{"name": "breast","id": "D_REF.Breast"}
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/S1.mtn"}
+		],
+		"tick_5":[
+			{"file":"motions/S3.mtn","text": "现在时间是 {$timenow}"}
+		],
+		"tick_10":[
+			{"file":"motions/S3.mtn","text": "今天是 {$datenow}"}
+		],
+		"tap_body"	:[
+			{"file":"motions/wryneck.mtn"},
+			{"file":"motions/nod.mtn"},
+			{"file":"motions/doubt1.mtn"},
+			{"file":"motions/doubt2.mtn"}
+		],
+		"tap_head"	:[
+			{"file":"motions/smile.mtn","text":"{$username}sama,dasuki"},
+			{"file":"motions/cute1.mtn"},
+			{"file":"motions/cute2.mtn"},
+			{"file":"motions/shy.mtn"}
+		],
+		"tap_breast"	:[
+			{"file":"motions/angry.mtn","text":"{$username}sama,hentai"},
+			{"file":"motions/mad.mtn"},
+			{"file":"motions/sigh.mtn"},
+			{"file":"motions/pitiful.mtn"},
+			{"file":"motions/reject.mtn"}
+		]
+	},
+	"expressions": [
+		{
+			"name": "f00.exp.json",
+			"file": "expressions/f00.exp.json"
+		},
+		{
+			"name": "f01.exp.json",
+			"file": "expressions/f01.exp.json"
+		},
+		{
+			"name": "f02.exp.json",
+			"file": "expressions/f02.exp.json"
+		},
+		{
+			"name": "f03.exp.json",
+			"file": "expressions/f03.exp.json"
+		},
+		{
+			"name": "f04.exp.json",
+			"file": "expressions/f04.exp.json"
+		},
+		{
+			"name": "f05.exp.json",
+			"file": "expressions/f05.exp.json"
+		},
+		{
+			"name": "f06.exp.json",
+			"file": "expressions/f06.exp.json"
+		},
+		{
+			"name": "f07.exp.json",
+			"file": "expressions/f07.exp.json"
+		},
+		{
+			"name": "f08.exp.json",
+			"file": "expressions/f08.exp.json"
+		},
+		{
+			"name": "f09.exp.json",
+			"file": "expressions/f09.exp.json"
+		}
+	],
+	"physics":"physics.json"
+}

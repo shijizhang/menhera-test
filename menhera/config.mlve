@@ -1,0 +1,19 @@
+{
+  "type": "STD_1_0",
+  "name": "menhera",
+  "id": "C2FEFFA1DE5217A3",
+  "encrypt": "true",
+  "version": "1.0",
+  "list": [
+    {
+      "id": "menhera",
+      "character": "menhera",
+      "costume": [
+        {
+          "name": "menhera",
+          "path": "menhera/menhera.model.json"
+        }
+      ]
+    }
+  ]
+}
