@@ -4,11 +4,6 @@
 	"textures": [
 		"menhera.2048/texture_00.png"
 	],
-	"hit_areas": [
-		{"name": "head","id": "D_REF.Head"},
-		{"name": "body","id": "D_REF.Body"},
-		{"name": "breast","id": "D_REF.Breast"}
-	],
 	"motions":{
 		"idle":[
 			{"file":"motions/S1.mtn"}
