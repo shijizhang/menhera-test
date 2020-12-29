@@ -5,15 +5,6 @@
 		"menhera.2048/texture_00.png"
 	],
 	"motions":{
-		"idle":[
-			{"file":"motions/S1.mtn"}
-		],
-		"tick_5":[
-			{"file":"motions/S3.mtn","text": "现在时间是 {$timenow}"}
-		],
-		"tick_10":[
-			{"file":"motions/S3.mtn","text": "今天是 {$datenow}"}
-		],
 		"tap_body"	:[
 			{"file":"motions/wryneck.mtn"},
 			{"file":"motions/nod.mtn"},
